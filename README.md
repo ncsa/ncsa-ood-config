@@ -1,2 +1,4 @@
 # ncsa-ood-config
-Repository for OpenOndemand app configs for deployments at NCSA
+This repository contains OpenOndemand app configs for the following deployments at NCSA:
+
+- openondemand.delta.ncsa.illinois.edu
