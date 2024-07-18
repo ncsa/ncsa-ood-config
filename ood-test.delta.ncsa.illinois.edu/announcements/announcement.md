@@ -1,1 +1,5 @@
 Welcome to NCSA's Delta system.
+
+- For general Open OnDemand information, please see [the Open OnDemand section of the Delta User Guide](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/ood/index.html).
+- While development in Jupyter can be done in the -interactive partitions (with 1 hour wall clock limit), longer running Jupyter sessions need to use the standard partitions (up to 48 hour wall clock limits).  For information on Delta Slurm partitions, see [the Delta User Guide article](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#delta-production-partitions-queues) about available Slurm partitions.
+- Requests for assistance should go to [help@ncsa.illinois.edu](mailto:help@ncsa.illinois.edu). Please mention Delta in the subject to ensure the request gets correctly routed.
