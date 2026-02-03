@@ -1,0 +1,9 @@
+---
+type: warning
+msg: |
+  <% if Time.now < Time.new(2026, 2, 16, 9, 0, 0) %>
+    **RedHat 8 deprecation:** The remaining RedHat 8 portion of Delta will be upgraded to RedHat 9 in <%= ((Time.new(2026, 2, 16, 9, 0, 0) - Time.now)/86400).floor %> days. By Monday February 16th, all compute resources will be moved to the upgraded configuration. The RH8 reservation will no longer be available.
+  <% elsif Time.now < Time.new(2026, 3, 16, 9, 0, 0) %>
+  <%# If we get here, we are past Feb 16. %>
+    **RedHat 8 deprecation:** All Delta resources have been upgraded to RedHat 9. The RH8 reservation is no longer available.
+  <% end %>
