@@ -1,0 +1,5 @@
+---
+dismissible: false
+message: |
+  Welcome to Open OnDemand for DeltaAI.
+type: info
