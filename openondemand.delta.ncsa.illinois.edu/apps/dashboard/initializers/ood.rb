@@ -4,6 +4,7 @@ Rails.application.config.after_initialize do
     paths << FavoritePath.new("/projects")
     paths << FavoritePath.new("/scratch")
     paths << FavoritePath.new("/taiga")
+    paths << FavoritePath.new("/infinia")
     paths << FavoritePath.new("/work")
   end
 end
