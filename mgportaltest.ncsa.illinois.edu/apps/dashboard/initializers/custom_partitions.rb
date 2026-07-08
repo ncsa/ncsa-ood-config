@@ -14,15 +14,15 @@ class CustomPartitions
 #      end
 #      if groups.include?('mg_abv_grc_be')
       !(groups & ["mg_abv_grc_be", "mg_ncsa_user"]).empty?
-      @partitions_avail_cpu.append('be_gpu')
+      @partitions_avail_gpu.append('be_gpu')
 #      end
 #      if groups.include?('mg_abv_caim_gpu')
       !(groups & ["mg_abv_caim_gpu", "mg_ncsa_user"]).empty?
-      @partitions_avail_cpu.append('caim_gpu')
+      @partitions_avail_gpu.append('caim_gpu')
 #      end
 #      if groups.include?('mg_abv_wide_gpu')
       !(groups & ["mg_abv_wide_gpu", "mg_ncsa_user"]).empty?
-      @partitions_avail_cpu.append('wide_gpu')
+      @partitions_avail_gpu.append('wide_gpu')
 #      end
 
       @partitions_avail = @partitions_avail_cpu + @partitions_avail_gpu
